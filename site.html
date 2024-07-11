@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alla Chepurova</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            width: auto;
+            background-image: url("docs/back.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #f8f9fa;
+            border: 3px solid #555;
+            /* Border color */
+            border-radius: 5px;
+            /* Rounded corners */
+            margin: 50px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            vertical-align: middle;
+            /* Soft shadow */
+            /* background-blend-mode: ; */
+
+        }
+
+        .container {
+            text-align: center;
+            max-width: 1600px;
+            width: 80%;
+            padding: 0 1rem;
+            margin: 50px;
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+
+        }
+
+        .container-left {
+            float: left;
+            width: 50%;
+        }
+
+        .container-right {
+            float: left;
+            width: 50%;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #333;
+        }
+
+        p {
+            margin-top: 0.5rem;
+            margin: 5px;
+            color: #555;
+        }
+
+        /* Header Styles */
+        header {
+            /* display: flex; */
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 2rem;
+            text-align: center;
+            margin: 50px;
+            margin-bottom: 25px;
+        }
+
+        header img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            /* Makes the image circular */
+            border: 3px solid #333;
+            /* Darker border color */
+        }
+
+        /* Links Section Styles */
+        .links-section {
+            margin-top: 2rem;
+        }
+
+
+        .links-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #333;
+            /* Darker heading color */
+        }
+
+        .links-section .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .links a {
+            display: inline-flex;
+            align-items: center;
+            margin: 0.5rem 1rem;
+            font-size: 1.2rem;
+            color: #333;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .links a:hover {
+            color: #666;
+            /* Darker hover color */
+        }
+
+        .links a img {
+            margin-right: 0.5rem;
+            width: 24px;
+            height: 24px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <img src="docs/me.jpg" alt="Alla Chepurova">
+        <h1>Alla Chepurova</h1>
+        <p>NLP researcher, @DeepPavlov.ai</p>
+        <p>Bioinformatics Master's student, @ITMO</p>
+        <p>Passionate about data science, computational biology, data art and cinematography. </p>
+    </header>
+    <div class="container">
+        <div class="container-left">
+            <div class="links-section">
+                <h2>Contacts</h2>
+                <div class="links">
+                    <a href="mailto:chepurova.data@gmail.com"><img
+                            src="https://img.icons8.com/ios-filled/50/000000/email.png" alt="Email">Email</a>
+                    <a href="https://www.linkedin.com/in/alla-chepurova-8771411ba/" target="_blank"><img
+                            src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn">LinkedIn</a>
+                </div>
+                <h2>Publications</h2>
+                <div class="links">
+                    <a href="https://scholar.google.com/citations?user=NwE8OmQAAAAJ&hl=en&oi=ao" target="_blank"><img
+                            src="https://img.icons8.com/ios-glyphs/30/graduation-cap--v1.png"
+                            alt="Google Scholar">Google
+                        Scholar</a>
+                    <a href="https://www.researchgate.net/profile/Alla-Chepurova" target="_blank"><img
+                            src="https://img.icons8.com/external-tal-revivo-light-tal-revivo/24/external-researchgate-a-social-networking-site-for-scientists-and-researchers-to-share-papers-logo-light-tal-revivo.png"
+                            alt="ResearchGate">ResearchGate</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-right">
+            <div class="links-section">
+                <h2>Projects</h2>
+                <div class="links">
+                    <a href="https://github.com/screemix" target="_blank"><img
+                            src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub">GitHub</a>
+
+                    <a href="https://huggingface.co/screemix"><img
+                            src="https://img.icons8.com/ios/50/hugging-face_app.png" alt="HuggingFace">HuggingFace</a>
+                    <a href="https://www.behance.net/allachepurova" target="_blank"><img
+                            src="https://img.icons8.com/ios-filled/50/000000/behance.png" alt="Behance">Behance</a>
+                </div>
+                <h2>Blogs</h2>
+                <div class="links">
+
+                    <a href="https://medium.com/@screemix" target="_blank"><img
+                            src="https://img.icons8.com/ios-glyphs/30/medium-logo.png" alt="Medium">Medium </a>
+
+                    <a href="https://t.me/embrace_data" target="_blank"><img
+                            src="https://img.icons8.com/ios-filled/50/000000/telegram-app.png" alt="Telegram">Telegram
+                        blog (ru) </a>
+
+                    <a href="https://letterboxd.com/screemix/" target="_blank"><img
+                            src="https://img.icons8.com/color/48/letterboxd.png" alt="Letterboxd">Letterboxd</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
